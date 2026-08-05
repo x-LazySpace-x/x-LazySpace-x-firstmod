@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:red_cube"
+    },
+    {
+      "item": "firstmod:blue_cube"
+    }
+  ],
+  "result": {
+    "id": "firstmod:purple_cube"
+  }
+}
