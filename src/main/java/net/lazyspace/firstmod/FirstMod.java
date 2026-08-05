@@ -2,6 +2,7 @@ package net.lazyspace.firstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lazyspace.firstmod.block.ModBlocks;
 import net.lazyspace.firstmod.item.ModItems;
 import net.minecraft.util.Identifier;
 
@@ -15,6 +16,7 @@ public class FirstMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {

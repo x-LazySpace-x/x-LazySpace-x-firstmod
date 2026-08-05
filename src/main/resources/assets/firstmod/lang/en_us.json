@@ -1,4 +1,6 @@
 {
   "item.firstmod.red_cube": "Red Cube",
-  "item.firstmod.blue_cube": "Blue Cube"
+  "item.firstmod.blue_cube": "Blue Cube",
+
+  "block.firstmod.purple_cube": "Hollow Purple Cube"
 }
