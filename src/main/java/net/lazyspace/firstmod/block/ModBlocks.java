@@ -26,10 +26,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        FirstMod.LOGGER.info("registering Mod Blocks for " + FirstMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(PURPLE_CUBE);
-        });
+        FirstMod.LOGGER.info("registering Blocks for " + FirstMod.MOD_ID);
     }
 }

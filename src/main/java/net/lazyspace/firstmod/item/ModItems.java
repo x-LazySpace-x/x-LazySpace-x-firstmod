@@ -18,11 +18,6 @@ public class ModItems {
     public static final Item BLUE_CUBE = registerItem("blue_cube", new Item(new Item.Settings()));
 
     public static void registerModItems() {
-        FirstMod.LOGGER.info("registering Mod Items for " + FirstMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(RED_CUBE);
-            entries.add(BLUE_CUBE);
-        });
+        FirstMod.LOGGER.info("registering Items for " + FirstMod.MOD_ID);
     }
 }
