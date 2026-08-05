@@ -19,3 +19,4 @@ public class FirstMod implements ModInitializer {
 		return Identifier.of(MOD_ID, path);
 	}
 }
+// Hello
