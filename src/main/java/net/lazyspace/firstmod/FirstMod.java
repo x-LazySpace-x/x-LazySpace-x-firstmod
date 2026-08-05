@@ -2,6 +2,7 @@ package net.lazyspace.firstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lazyspace.firstmod.item.ModItems;
 import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
@@ -13,10 +14,10 @@ public class FirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 
 	public static Identifier id(String path) {
 		return Identifier.of(MOD_ID, path);
 	}
 }
-// Hello
