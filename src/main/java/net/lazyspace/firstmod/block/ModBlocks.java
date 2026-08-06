@@ -1,6 +1,7 @@
 package net.lazyspace.firstmod.block;
 
 import net.lazyspace.firstmod.FirstMod;
+import net.lazyspace.firstmod.block.custom.YellowCubeBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -13,9 +14,13 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block PURPLE_CUBE = registerBlock("purple_cube", new Block(AbstractBlock.Settings.create()
-            .strength(4f)
+            .strength(1f)
             .requiresTool()
             .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+    ));
+    public static final Block YELLOW_CUBE = registerBlock("yellow_cube", new YellowCubeBlock(AbstractBlock.Settings.create()
+            .strength(1f)
+            .sounds(BlockSoundGroup.METAL)
     ));
 
     private static Block registerBlock(String name, Block block) {

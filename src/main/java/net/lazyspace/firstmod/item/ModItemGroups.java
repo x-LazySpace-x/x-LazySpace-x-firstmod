@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BLUE_CUBE);
                         entries.add(ModBlocks.PURPLE_CUBE);
                         entries.add(ModItems.GREEN_CUBE);
+                        entries.add(ModBlocks.YELLOW_CUBE);
                     })
                     .build());
 

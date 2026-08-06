@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "firstmod:block/yellow_cube", "uvlock": true },
+    "facing=east":  { "model": "firstmod:block/yellow_cube", "y":  90, "uvlock": true },
+    "facing=south": { "model": "firstmod:block/yellow_cube", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "firstmod:block/yellow_cube", "y": 270, "uvlock": true }
+  }
+}

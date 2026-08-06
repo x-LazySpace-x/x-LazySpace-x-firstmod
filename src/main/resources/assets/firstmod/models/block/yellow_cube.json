@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "firstmod:block/yellow_cube/side_front",
+    "down": "firstmod:block/yellow_cube/side",
+    "up": "firstmod:block/yellow_cube/side",
+    "north": "firstmod:block/yellow_cube/side_front",
+    "south": "firstmod:block/yellow_cube/side",
+    "west": "firstmod:block/yellow_cube/side",
+    "east": "firstmod:block/yellow_cube/side"
+  }
+}
